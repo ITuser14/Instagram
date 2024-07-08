@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+body{
+    border-top: 1px solid black;
+    display: flex;    
+}
+.leftnavbar{
+    margin-top: 4px;
+    width: 250px;
+    height: 100vh;
+    background-color: #ffffff;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.topbar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.topbar p{
+    font: 18px -apple-system,BlinkMacSystem,Helvetica,arial,sans-serif;
+    color: #000000;
+    margin-top: 10px;
+}
+.topbar i {
+    padding-right: 30px;
+    padding-left: 25px;
+    font-size: 22px;
+}
+.downbar{
+    padding-left: 30px;
+}
+.downbar i{
+    padding-right: 20px;
+}
+.downbar p{
+    font: 17px -apple-system,BlinkMacSystem,Helvetica,arial,sans-serif;
+    font-weight: 100;
+}
+.middlebar{
+   margin-top: 5px;
+    width: 700px;
+    margin-left: 130px;
+    overflow-y: auto;
+    background-color: #ffffff;
+}
+.story{
+    width: 100%;
+    height: 130px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    /* background-color: red; */
+    gap: 5px;
+    /* padding-left: 20px; */
+}
+.stories a img{
+    border-radius: 50%;
+    border: 2px solid #c62;
+}
+.stories p{
+    overflow: hidden;
+    white-space: nowrap;
+    color: #262626;
+}
+/* post-section */
+ .post-section{
+    padding-top: 1px;
+    padding-left: 50px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .left-title .fa-ellipsis{
+    padding-right: 150px;
+    padding-top: 23px;
+ }
+ .post-title{
+    padding-left: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .post-title img{
+    margin-top: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+ }
+ .post-title span{
+   font-size: 18px;
+   padding-left: 10px;
+   padding-top: 10px;
+ }
+ /* postimagessection */
+ .post-footer{
+    margin-top: 8px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .save{
+    padding-right: 100px;
+ }
+ .fa-regular{
+    font-size: 22px;
+    padding-left: 9px;
+ }
+ /* rightnavbarSection */
+ .rytnavbar{
+    width: 400px;
+    height: 150vh;
+    background-color: #ffffff;
+    margin-top: 30px;
+    margin-left: 30px;
+    /* display: flex; */
+    /* gap: 120px; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+ }
+ .upper{
+    display: flex;
+    justify-content: space-between;
+ }
+ .imageclass{
+    padding-left: 40px;
+    padding-top: 20px;
+    display: flex;
+
+ }
+ .written{
+    padding-top: 30px;
+ }
+.written a{
+    text-decoration: none;
+    padding-right: 70px;
+}
+.suggest{
+    margin-top: 20px;
+    display: flex;
+}
+.suggest span{
+    font: 14px -apple-system,BlinkMacSystemFont;
+    color: #737373;
+}
+.about{
+    padding-top: 40px;
+
+}
